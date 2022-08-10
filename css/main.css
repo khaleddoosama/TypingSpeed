@@ -1,0 +1,108 @@
+:root {
+    --main-color: #2196f3;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.game {
+    background-color: #eee;
+    min-height: 100vh;
+}
+
+.container {
+    margin: auto;
+    max-width: 900px;
+}
+
+.name {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.level {
+    cursor: pointer;
+    user-select: none;
+}
+
+.level span.active {
+    color: var(--main-color);
+}
+
+.level span:hover {
+    color: #2785ce;
+}
+
+.message {
+    background-color: white;
+}
+
+.message span {
+    color: #009688;
+}
+
+.message span::before {
+    content: "[ ";
+}
+
+.message span::after {
+    content: " ]";
+}
+
+.start {
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
+}
+
+.the-word {
+    color: var(--main-color);
+    user-select: none;
+}
+
+.input {
+    border: 3px solid var(--main-color);
+    caret-color: var(--main-color);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.upcoming-words {
+    background-color: white;
+}
+
+.upcoming-words div {
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.control {
+    background-color: white;
+}
+
+.control span {
+    font-weight: bold;
+    color: #009688;
+}
+
+.finish .good {
+    color: var(--main-color);
+}
+
+.finish .bad {
+    color: red;
+}
+.finish .new-record {
+    color: var(--main-color);
+}
+
+.no-clicking {
+    pointer-events: none;
+}

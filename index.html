@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <div class="game ">
+        <div class="name p-3 fs-3 text-center fw-bold">Typing Speed Test Game</div>
+        <div class="level text-end me-3 mt-2">
+            <span class="me-2">Easy</span>
+            <span class="active me-2">Normal</span>
+            <span class="me-2">Hard</span>
+        </div>
+        <div class="container">
+            <div class="message p-3 my-3 mx-0 rounded text-center">
+                You Are Playing On
+                <span class="lvl fw-bold"></span> Level
+                & You Have <span class="seconds"></span> Seconds To Type The Word
+            </div>
+            <div class="start fs-5 fw-bold text-center p-3">Start Playing</div>
+            <div class="the-word text-center fw-bold fs-1"></div>
+            <input type="text" class="input my-3 mx-0 w-100 d-block p-3 fs-5 text-center rounded" />
+            <div class="upcoming-words my-3 mx-0 p-3 d-flex flex-wrap justify-content-center">Words Will Show Here</div>
+            <div class="control d-flex p-3 justify-content-between">
+                <div class="time">Time Left: <span></span> Seconds</div>
+                <div class="score">
+                    Score: <span class="got">0</span> From <span class="total"></span>
+                </div>
+            </div>
+            <div class="finish fw-bold text-center p-3 fs-1 "></div>
+        </div>
+    </div>
+
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
